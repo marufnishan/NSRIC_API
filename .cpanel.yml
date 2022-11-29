@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ni146t5j3hot/public_html/new.nsric.ca
+    - /bin/cp * $DEPLOYPATH
